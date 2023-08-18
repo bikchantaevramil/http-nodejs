@@ -32,8 +32,9 @@ app.get("/spravochniki", async function (request, response) {
         name:"Ramil" },
 
     ];
-
-    //console.log(results);
+let today = new Date();
+    console.log(today);
+    console.log(results);
     response.status(200);
     response.json(
       {
